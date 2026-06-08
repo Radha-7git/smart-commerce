@@ -24,6 +24,8 @@ public class Product extends BaseEntity {
     private BigDecimal price;
     @Column(nullable = false)
     private Integer stockQuantity;
+    @Column(length = 1000)
+    private String imageUrl;
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
     private Category category;

@@ -19,6 +19,7 @@ public record UpdateProductRequest(
         @Positive(message = "Stock quantity must be positive")
         Integer stockQuantity,
         @NotNull(message = "Category is required")
-        Category category
+        Category category,
+        String imageUrl
 ) {
 }

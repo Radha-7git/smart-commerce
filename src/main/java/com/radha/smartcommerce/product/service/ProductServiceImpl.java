@@ -65,6 +65,7 @@ public class ProductServiceImpl implements ProductService {
         product.setDescription(request.description());
         product.setPrice(request.price());
         product.setCategory(request.category());
+        product.setImageUrl(request.imageUrl());
         product.setStockQuantity(request.stockQuantity());
         Product savedProduct = productRepository.save(product);
         return productMapper.toProductResponse(savedProduct);

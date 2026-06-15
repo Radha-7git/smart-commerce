@@ -34,7 +34,6 @@ The project demonstrates enterprise backend architecture with a focus on scalabi
 | Security | Spring Security, JWT |
 | Database | PostgreSQL |
 | ORM | Spring Data JPA, Hibernate |
-| Migration |
 | Messaging | Apache Kafka |
 | API Documentation | Swagger / OpenAPI |
 | Build Tool | Maven |
